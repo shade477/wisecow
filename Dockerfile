@@ -13,7 +13,7 @@ RUN apt-get update && \
 ENV PATH="/usr/games:${PATH}"
 WORKDIR /app
 
-COPY . .
+COPY wisecow.sh .
 
 # Make the server script executable
 RUN chmod +x /app/wisecow.sh
