@@ -16,7 +16,7 @@ WORKDIR /app
 COPY . .
 
 # Make the server script executable
-RUN chmod +x /app/wisecow/wisecow.sh
+RUN chmod +x /app/wisecow.sh
 
 # Expose the port the server will run on
 EXPOSE 4499
