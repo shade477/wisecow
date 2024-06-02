@@ -17,6 +17,7 @@ spec:
       containers:
       - name: wisecow
         image: shade477/wisecow:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 4499
         livenessProbe:
